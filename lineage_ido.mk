@@ -15,6 +15,9 @@
 
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
