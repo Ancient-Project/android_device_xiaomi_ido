@@ -85,9 +85,6 @@ TARGET_HAS_NO_POWER_STATS := true
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 BOARD_NO_SECURE_DISCARD := true
